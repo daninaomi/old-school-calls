@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Contact Us | Old School Talks</title>
+<link rel="stylesheet" href="../styles/global.css" />
+<style type="text/css">
+
+	#box2 {
+		float: right;
+		margin-right: 300px;
+	}
+
+</style>
+</head>
+
+<body>
+
+<header>
+	<div id="boxnav1">
+		<a href="../index.html"></li><img src="../images/logo.png" width="210" height="100" alt="old school talks"></a>
+	</div>
+</header>
+
+<nav>
+		<li id="boxnav2"><a href="../user/login.html">Login</a></li>
+
+		<li id="boxnav2"><a href="../supporter/supporter.html">Support</a></li>
+		
+		<li id="boxnav2"><a href="../about/about1.html">About</a></li>
+
+		<li id="boxnav2">Contact</li>
+
+</nav>
+<main>
+	<div id="box2"> 
+	<h1>Send us your question !</h1>
+	
+	<p>Please fill out the fields below.</p>
+	
+	<p><span class="asterik">*</span> Required Fields</p>
+	
+	<section>
+		<form name="Contact Us" action="URL_to_Form_Processing_Script_Goes_Here">
+			<!-- Put your e-mail address in the line below -->
+			<input type="hidden" name="send_to" value="Your_Address@Your_Site.com">
+			<!-- Put your e-mail subject in the line below -->
+			<input type="hidden" name="email_subject" value="Email_Subject_Line_Goes_Here">
+			<!-- You must set this to the where the reply page is on your site -->
+			<input type="hidden" name="confirmation" value="Reply_Page_URL">
+			<!-- You must enter absolute URL to the error page is on your site -->
+			<input type="hidden" name="error" value="Error_Page_URL">
+			<!-- end hidden fields -->
+		
+			<label for="fullname"><span class="asterik">*</span> Full Name </label>	
+			<input type="text" name="name" id="fullname" class="fullfield">
+			
+			<label for="email"><span class="asterik">*</span> E-mail </label>
+			<input type="text" name="email_address" id="email" class="fullfield">	
+			
+			<label for="comments"> Comments </label>
+			<textarea name="comments"></textarea>
+
+			<label for="send" style="margin-top: 9px;"> Send Newsletter </label>
+			
+			Yes <input type="radio" name="send" id="yes" value="yes">
+			No <input type="radio" name="send" id="no" value="no">				
+			
+			<input type="reset" value="Reset"> &nbsp; &nbsp; <input type="submit" value="Send it!">
+
+		</form>
+	</section>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
